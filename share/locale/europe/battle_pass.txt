@@ -1,0 +1,205 @@
+Group BattlePass
+{
+	#--#	BattlePassName	BattlePassID
+	1	battlepass_january_2020	1
+}
+
+Group battlepass_january_2020
+{
+	Group Reward
+	{
+		#--#	ItemVnum	ItemCount
+		1	41726	1
+		2	45412	1
+		3	50270	5
+		4	71125	1
+		5	53001	1
+	}
+
+	Group Mission_1
+	{
+		#--#	InfoDesc	InfoName
+		1	type	MONSTER_KILL
+		2	vnum	1093
+		3	count	200
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+	}
+
+	Group Mission_2
+	{
+		#--#	InfoDesc	InfoName
+		1	type	PLAYER_KILL
+		2	min_level	75
+		3	count	5
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_3
+	{
+		#--#	InfoDesc	InfoName
+		1	type	MONSTER_DAMAGE
+		2	vnum	1093
+		3	value	20000
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_4
+	{
+		#--#	InfoDesc	InfoName
+		1	type	PLAYER_DAMAGE
+		2	min_level	75
+		3	value	15000
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_5
+	{
+		#--#	InfoDesc	InfoName
+		1	type	USE_ITEM
+		2	vnum	27987
+		3	count	10
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_6
+	{
+		#--#	InfoDesc	InfoName
+		1	type	SELL_ITEM
+		2	vnum	80008
+		3	count	5
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_7
+	{
+		#--#	InfoDesc	InfoName
+		1	type	CRAFT_ITEM
+		2	vnum	13140
+		3	count	1
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_8
+	{
+		#--#	InfoDesc	InfoName
+		1	type	REFINE_ITEM
+		2	vnum	14548
+		3	count	1
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_9
+	{
+		#--#	InfoDesc	InfoName
+		1	type	DESTROY_ITEM
+		2	vnum	15419
+		3	count	2
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_10
+	{
+		#--#	InfoDesc	InfoName
+		1	type	COLLECT_ITEM
+		2	vnum	50300
+		3	count	100
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_11
+	{
+		#--#	InfoDesc	InfoName
+		1	type	FRY_FISH
+		2	count	10
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_12
+	{
+		#--#	InfoDesc	InfoName
+		1	type	CATCH_FISH
+		2	count	20
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_13
+	{
+		#--#	InfoDesc	InfoName
+		1	type	SPENT_YANG
+		2	value	50000000
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_14
+	{
+		#--#	InfoDesc	InfoName
+		1	type	FARM_YANG
+		2	value	200000000
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_15
+	{
+		#--#	InfoDesc	InfoName
+		1	type	COMPLETE_DUNGEON
+		2	id	5
+		3	count	2
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+
+	Group Mission_16
+	{
+		#--#	InfoDesc	InfoName
+		1	type	COMPLETE_MINIGAME
+		2	id	1
+		3	count	2
+		#--#	Rewards
+		4	50934	1
+		5	51501	5
+		6	50821	1
+	}
+}

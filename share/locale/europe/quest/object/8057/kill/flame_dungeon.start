@@ -1,0 +1,4 @@
+if flame_dungeon . is_flamed ( d . get_map_index ( ) ) and d . getf ( "level" ) == 16 then d . notice ( locale_quest ( 1370 ) ) 
+d . notice ( locale_quest ( 1359 ) ) 
+flame_dungeon . level_clear ( ) 
+ return end 

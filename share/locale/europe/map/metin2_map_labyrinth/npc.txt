@@ -1,0 +1,7 @@
+// Warp NPC
+m	128		98	0	0	0	1	1m	100	1	9013		//Händlerin der Illusionen (128,98)
+m	141		181	0	0	0	7	1m	100	1	20473		//Waffenschmiedstatue (141,181)
+m	113		179	0	0	0	3	1m	100	1	20474		//Rüstungsschmiedstatue (113,179)
+m	153		89	0	0	0	10	1m	100	1	20471		//Statue der Erweckung (153,89)
+m	103		90	0	0	0	2	1m	100	1	20472		//Statue des Zeitrisses (103,90)
+m	127		190	0	0	0	4	1m	100	1	9012		//Teleporter (127,190)

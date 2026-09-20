@@ -1,0 +1,3 @@
+#Vnum	MinLevel	MaxLevel	Use Tab(\t)
+10005	15	75
+10006	95	250

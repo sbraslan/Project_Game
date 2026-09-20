@@ -1,0 +1,8 @@
+if pc . get_map_index ( ) == 208 then local settings = dragon_lair_access . get_settings ( ) 
+char_log ( pc . get_player_id ( ) , "LAIR" , pc . get_channel_id ( ) .. " DRAGON KILLED" ) 
+game . set_event_flag ( "dragon_lair_alive" , 0 ) 
+game . drop_item_with_ownership ( 71123 , 1 ) 
+game . drop_item_with_ownership ( 71129 , 1 ) 
+notice_all ( 890 , pc . get_name ( ) ) 
+purge_area ( settings . room_area . first . x , settings . room_area . first . y , settings . room_area . last . x , settings . room_area . last . y ) 
+ return end 

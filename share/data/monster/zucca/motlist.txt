@@ -1,0 +1,2 @@
+GENERAL WAIT zucca_loop.msa 100
+GENERAL RUN zucca_loop.msa 100

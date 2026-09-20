@@ -1,0 +1,1 @@
+GENERAL WAIT zombie_security_stone.msm 100

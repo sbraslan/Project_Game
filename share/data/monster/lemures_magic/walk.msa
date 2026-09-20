@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "monster2\lemures_magic\walk.gr2"
+MotionDuration           1.000000
+Accumulation             0.11	-220.72	0.00
+

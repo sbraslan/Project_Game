@@ -1,0 +1,8 @@
+// Warp NPC
+m	258		568	0	0	0	5	1m	100	1	20475		//Heiliger Setschmied (258,568)
+m	257		569	0	0	0	5	1m	100	1	20476		//Prächtiger Setschmied (257,569)
+m	256		570	0	0	0	5	1m	100	1	20477		//Ritterlicher Setschmied (256,570)
+m	255		571	0	0	0	5	1m	100	1	20478		//Fürstlicher Setschmied (255,571)
+m	254		572	0	0	0	5	1m	100	1	20479		//Majest. Setschmied (254,572)
+m	241		574	0	0	0	4	1m	100	1	20433		//Kriegerstatue (241,574)
+m	229		585	0	0	0	1	1m	100	1	3998		//Elementarwelt (229,585)

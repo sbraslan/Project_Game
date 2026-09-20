@@ -1,0 +1,429 @@
+Group ShopNPC
+{
+	#--#    NPC    Group
+	1	9001	Waffen			--	Waffenhändler
+	2	9001	Waffen2			--	Waffenhändler
+	3	9003	Gemischtwaren1	--	Gemischtwarenhändlerin
+	4	9003	Gemischtwaren2	--	Gemischtwarenhändlerin
+	5	9002	Ruestungen		--	Rüstunghändler
+	6	9002	Ruestungen2		--	Rüstunghändler
+	7	9004	Frisuren1		--	Ereignishelfer
+	8	9004	Frisuren2		--	Ereignishelfer
+	9	9010	BetaShop		--	Gemischtwarenhändlerin
+	10	9010	BetaShop2		--	Gemischtwarenhändlerin
+	11	20429	CombatZone		--	Kampfzone
+	12	20650	MedalShop		--	Medaillen
+	13	20368	TEST			-- Exp
+	14	20368	TEST2			-- Items
+	103	9007	BNWShop			-- DONT CHANGE THIS ID [103] !!!
+	104	9008	AchievementShop	-- DONT CHANGE THIS ID [104] !!!
+}
+
+Group Waffen
+{
+	Vnum	14
+	Name	Waffen
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	6010	1	180000	1
+		2	3019	1	20000	1
+		3	6009	1	10000	1
+		4	1009	1	10000	1
+		5	1019	1	20000	1
+		6	2009	1	10000	1
+		7	2019	1	20000	1
+		8	19	1	10000	1
+		9	29	1	20000	1
+		10	5009	1	10000	1
+		11	5019	1	20000	1
+		12	7009	1	10000	1
+		13	7019	1	20000	1
+		14	290	1	200000	1
+		15	3210	1	200000	1
+		16	1170	1	150000	1
+		17	2150	1	150000	1
+		18	5110	1	150000	1
+		19	7160	1	150000	1
+	}
+}
+
+Group Waffen2
+{
+	Vnum	15
+	Name	Pfeile
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	8001	250	30000	1
+		2	8002	250	40000	1
+		3	8003	250	50000	1
+		4	8004	250	60000	1
+		5	8005	250	70000	1
+		6	8006	250	80000	1
+		7	8007	250	90000	1
+		8	8008	250	100000	1
+	}
+}
+
+Group Gemischtwaren1
+{
+	Vnum	16
+	Name	I
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	50200	1	0	1
+		2	27002	250	8000	1
+		3	27003	250	10000	1
+		4	27004	250	5000	1
+		5	27005	250	8000	1
+		6	27006	250	10000	1
+		7	27102	250	500000	1
+		8	27105	250	500000	1
+		9	72723	1	25000	1
+		10	72723	10	250000	1
+		11	72727	1	25000	1
+		12	72727	10	250000	1
+	}
+}
+
+Group Gemischtwaren2
+{
+	Vnum	17
+	Name	II
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	71106	1	150000	1
+		2	50264	1	1000000	1
+		3	50826	50	50000	1
+		4	50826	250	250000	1
+		5	50901	1	15000	1
+		6	70038	200	500000	1
+		7	70058	1	100000	1
+		8	70063	1	250000	1
+		9	70063	10	2500000	1
+		10	70064	1	250000	1
+		11	70064	10	2500000	1
+		12	71002	1	800000	1
+		13	71003	1	200000	1
+		14	71009	1	150000	1
+		15	71012	1	200000	1
+		16	71049	1	1000000	1
+		17	71054	1	5000000	1
+		18	71083	1	500000	1
+		19	72701	1	100000	1
+		20	79501	1	300000	1
+		21	79502	1	2100000	1
+		22	79503	1	4200000	1
+		23	79504	1	8400000	1
+		24	50901	10	150000	1
+		25	50901	10	3000000	1
+		26	71048	1	1000000	1
+		27	71103	1	150000	1
+		28	71104	1	150000	1
+		29	71105	1	150000	1
+	}
+}
+
+Group Ruestungen
+{
+	Vnum	18
+	Name	I
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	21015	1	125000	1
+		2	11217	1	75000	1
+		3	11226	1	100000	1
+		4	11235	1	125000	1
+		5	11409	1	50000	1
+		6	11417	1	75000	1
+		7	11426	1	100000	1
+		8	11435	1	125000	1
+		9	11609	1	50000	1
+		10	11617	1	75000	1
+		11	11626	1	100000	1
+		12	11635	1	125000	1
+		13	11809	1	50000	1
+		14	11817	1	75000	1
+		15	11826	1	100000	1
+		16	11835	1	125000	1
+		17	21009	1	50000	1
+	}
+}
+
+Group Ruestungen2
+{
+	Vnum	19
+	Name	II
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	21510	1	50000	1
+		2	12645	1	50000	1
+		3	12489	1	25000	1
+		4	12505	1	50000	1
+		5	12349	1	25000	1
+		6	12365	1	50000	1
+		7	12209	1	25000	1
+		8	12225	1	50000	1
+		9	13009	1	25000	1
+		10	13025	1	50000	1
+		11	14009	1	20000	1
+		12	15009	1	20000	1
+		13	16009	1	20000	1
+		14	17009	1	20000	1
+		15	21509	1	25000	1
+	}
+}
+
+Group Frisuren1
+{
+	Vnum	20
+	Name	Sura
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	74544	1	100000	1
+		2	74522	1	100000	1
+		3	74523	1	100000	1
+		4	74524	1	100000	1
+		5	74525	1	100000	1
+		6	74526	1	100000	1
+		7	74527	1	100000	1
+		8	74528	1	100000	1
+		9	74529	1	100000	1
+		10	74530	1	100000	1
+		11	74531	1	100000	1
+		12	74532	1	100000	1
+		13	74533	1	100000	1
+		14	74534	1	100000	1
+		15	74535	1	100000	1
+		16	74536	1	100000	1
+		17	74537	1	100000	1
+		18	74538	1	100000	1
+		19	74539	1	100000	1
+		20	74540	1	100000	1
+		21	74541	1	100000	1
+		22	74542	1	100000	1
+		23	74543	1	100000	1
+	}
+}
+
+Group Frisuren2
+{
+	Vnum	21
+	Name	Schami
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	74012	1	100000	1
+		2	74752	1	100000	1
+		3	74753	1	100000	1
+		4	74754	1	100000	1
+		5	74755	1	100000	1
+		6	74756	1	100000	1
+		7	74757	1	100000	1
+		8	74758	1	100000	1
+		9	74759	1	100000	1
+		10	74760	1	100000	1
+		11	74761	1	100000	1
+		12	74762	1	100000	1
+		13	74251	1	100000	1
+		14	74252	1	100000	1
+		15	74253	1	100000	1
+		16	74254	1	100000	1
+		17	74255	1	100000	1
+		18	74256	1	100000	1
+		19	74257	1	100000	1
+		20	74258	1	100000	1
+		21	74259	1	100000	1
+		22	74260	1	100000	1
+		23	74261	1	100000	1
+		24	74262	1	100000	1
+		25	74001	1	100000	1
+		26	74002	1	100000	1
+		27	74003	1	100000	1
+		28	74004	1	100000	1
+		29	74005	1	100000	1
+		30	74006	1	100000	1
+		31	74007	1	100000	1
+		32	74008	1	100000	1
+		33	74009	1	100000	1
+		34	74010	1	100000	1
+		35	74011	1	100000	1
+	}
+}
+
+Group BetaShop
+{
+	Vnum	22
+	Name	I
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	71126	1	1	1
+		2	71136	1	1	1
+		3	71143	1	1	1
+		4	71145	1	1	1
+		5	71148	1	1	1
+		6	71149	1	1	1
+		7	71158	1	1	1
+		8	71188	1	1	1
+		9	71199	1	1	1
+		10	71202	1	1	1
+		11	53011	1	1	1
+		12	53012	1	1	1
+		13	53020	1	1	1
+		14	53019	1	1	1
+		15	53018	1	1	1
+		18	72320	200	1	1
+		19	71155	1	1	1
+		20	30190	1	1	1
+		21	30191	1	1	1
+		22	71124	1	1	1
+		23	71125	1	1	1
+	}
+}
+
+Group BetaShop2
+{
+	Vnum	23
+	Name	II
+	CoinType	Gold
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	2170	1	100000	1
+		2	190	1	100000	1
+		3	25040	5	250000	1
+		4	6060	1	100000	1
+		5	6070	1	100000	1
+		6	30179	3	10000	1
+		7	71084	50	100000	1
+		8	71085	50	100000	1
+		9	70024	20	100000	1
+		10	180	1	100000	1
+		11	3160	1	100000	1
+		12	1130	1	100000	1
+		13	5120	1	100000	1
+	}
+}
+
+Group CombatZone
+{
+	Vnum	24
+	Name	Kampfzone
+	CoinType	BattlePoint
+	sort	Type
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	50288	1	30	1
+		2	50286	1	30	1
+		3	50285	1	5	1
+		4	50289	1	1	1
+		5	50290	1	30	1
+	}
+}
+
+Group MedalShop
+{
+	Vnum	25
+	Name	MedalShop
+	CoinType	MedalHonor
+	Sort	Asc
+	Group Items
+	{
+		#--# Vnum	Count	Price	LimitLevel
+		1	56002	1	300	21
+		2	56003	1	300	21
+		3	56004	1	300	21
+		4	56005	1	300	21
+		5	56006	1	300	21
+		6	56007	1	300	21
+		7	56008	1	400	24
+		8	56009	1	1000	24
+		9	50926	200	40	21
+	}
+}
+
+Group TEST
+{
+	Vnum	26
+	Name	xExp
+	CoinType	Exp
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	12019	1	500000	1
+		2	12029	1	10	1
+		3	12039	1	100	1
+	}
+}
+
+Group TEST2
+{
+	Vnum	27
+	Name	xItems
+	CoinType	Item
+	sort	Name
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	12029	1	279	1
+		2	12039	1	11299	1
+		3	12049	1	299	1
+	}
+}
+
+Group BNWShop
+{
+	Vnum	103
+	Name	BNWShop
+	CoinType	BNWCoin
+	Group Items
+	{
+		#--#	Vnum	Count	Price	limitlevel
+		1	27003	1	1	1
+		2	83043	1	4	1
+		3	83042	1	35	1
+		4	83041	1	60	1
+	}
+}
+
+Group AchievementShop
+{
+	Vnum	104
+	Name	AchievementShop
+	CoinType	Achievement
+	Group Items
+	{
+		#--# Vnum	Count	Price	limitlevel
+		1	56007	1	10	1
+		2	56012	1	2	1
+		3	27216	1	5	1
+	}
+}

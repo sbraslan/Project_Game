@@ -1,0 +1,4466 @@
+<Achievements>
+	<!-- Kill 10.000 Monsters -->
+	<Achievement id = "1" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "6" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 100.000 Monsters -->
+	<Achievement id = "2" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "6" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1.000.000 Monsters -->
+	<Achievement id = "3" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "6" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "1" count = "1" /> <!-- Title: Monster Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill 500.000 Undeads -->
+	<Achievement id = "4" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "500000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "9" value = "2" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "2" count = "1" /> <!-- Title: Demon Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 500.000 Devils -->
+	<Achievement id = "5" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "500000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "9" value = "4" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "3" count = "1" /> <!-- Title: Devil Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 250.000 Esoterics -->
+	<Achievement id = "6" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "9" value = "32" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "4" count = "1" /> <!-- Title: Esoteric Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 250.000 Orcs -->
+	<Achievement id = "7" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "9" value = "16" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "5" count = "1" /> <!-- Title: Orc Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 250.000 Animals -->
+	<Achievement id = "8" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "9" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "6" count = "1" /> <!-- Title: Animal Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- 1 Mio: Orktal, Hwang Tempel, Wüste, Eisland, Feuerland -->
+	<!-- 2 Mio: SD1, SD2, Geisterwald, Roter Wald, Grotte 1 & Grotte 2 -->
+	<!-- 3 Mio: 90er Maps -->
+	<!-- 4 Mio: 105er Maps -->
+	<!-- 5 Mio: Verwunscher + Ochao Maps -->
+	
+	<!-- Kill 1. Mio Monsters on Map: Orktal -->
+	<Achievement id = "9" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "64" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1. Mio Monsters on Map: Hwang Tempel -->
+	<Achievement id = "10" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "65" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1. Mio Monsters on Map: Wüste -->
+	<Achievement id = "11" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "63" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1. Mio Monsters on Map: Eisland -->
+	<Achievement id = "12" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "61" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1. Mio Monsters on Map: Feuerland -->
+	<Achievement id = "13" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "62" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1. Mio Monsters on Map: Land der Riesen -->
+	<Achievement id = "14" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "70" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2. Mio Monsters on Map: SD1 -->
+	<Achievement id = "15" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "104" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2. Mio Monsters on Map: SD2 -->
+	<Achievement id = "16" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "71" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2. Mio Monsters on Map: Geisterwald -->
+	<Achievement id = "17" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "67" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2. Mio Monsters on Map: Roter Wald -->
+	<Achievement id = "18" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "68" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2. Mio Monsters on Map: Grotte 1 -->
+	<Achievement id = "19" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "72" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2. Mio Monsters on Map: Grotte 2 -->
+	<Achievement id = "20" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "73" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 3. Mio Monsters on Map: Kap des Drachenfeuers -->
+	<Achievement id = "21" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "3000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "301" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 3. Mio Monsters on Map: Gautamakliff -->
+	<Achievement id = "22" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "3000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "302" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 3. Mio Monsters on Map: Nephritbucht -->
+	<Achievement id = "23" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "3000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "303" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 3. Mio Monsters on Map: Donnerberge -->
+	<Achievement id = "24" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "3000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "304" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 4. Mio Monsters on Map: Huaxal Islands -->
+	<Achievement id = "25" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "4000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "381" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 4. Mio Monsters on Map: Tropical Forest -->
+	<Achievement id = "26" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "4000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "382" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 5. Mio Monsters on Map: Ochao Temple -->
+	<Achievement id = "27" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "5000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "407" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 5. Mio Monsters on Map: Marchland of Ochao -->
+	<Achievement id = "28" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "5000000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "409" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill 1.000 Metins -->
+	<Achievement id = "29" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "5" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 10.000 Metins -->
+	<Achievement id = "30" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "5" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 100.000 Metins -->
+	<Achievement id = "31" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "5" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "7" count = "1" /> <!-- Title: Metin Hunter -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill 1.000 Metins between or equal to level 5 and 35 -->
+	<Achievement id = "32" max_value = "1000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8001" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8002" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8003" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8004" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8005" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8006" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8007" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 10.000 Metins between or equal to level 40 and 90 -->
+	<Achievement id = "33" max_value = "10000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8008" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8009" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8010" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8011" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8012" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8013" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8014" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8024" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8025" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8026" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8027" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 25.000 Metins between or equal to level 95 and 105 -->
+	<Achievement id = "34" max_value = "25000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8051" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8052" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8053" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8054" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8055" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8056" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 50.000 Metins between or equal to level 110 and 110 -->
+	<Achievement id = "35" max_value = "50000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "50000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35025" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "50000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35011" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 100.000 Metins between or equal to level 110 and 110 -->
+	<Achievement id = "36" max_value = "100000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8061" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50101" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill each Metin once -->
+	<Achievement id = "37" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8001" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8002" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8003" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8004" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8005" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8006" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8007" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8008" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8009" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8010" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8011" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8012" />
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8013" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8014" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8024" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8025" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8026" />
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8027" />
+				</Restrictions>
+			</Task>
+			<Task id = "19" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8051" />
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8052" />
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8053" />
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8054" />
+				</Restrictions>
+			</Task>
+			<Task id = "23" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8055" />
+				</Restrictions>
+			</Task>
+			<Task id = "24" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8056" />
+				</Restrictions>
+			</Task>
+			<Task id = "25" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8061" />
+				</Restrictions>
+			</Task>
+			<Task id = "26" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "8061" />
+				</Restrictions>
+			</Task>
+			<Task id = "27" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35025" />
+				</Restrictions>
+			</Task>
+			<Task id = "28" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35011" />
+				</Restrictions>
+			</Task>
+			<Task id = "29" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50101" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "8" count = "1" /> <!-- Title: Lord of Metins -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill 100 Bosses -->
+	<Achievement id = "38" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "4" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 1000 Bosses -->
+	<Achievement id = "39" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "4" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 10000 Bosses -->
+	<Achievement id = "40" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "4" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "9" count = "1" /> <!-- Title: Boss Executioner -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Tier1: Oberork, Große Wüstenschildkröte, Neunschwanz, Königinnenspinne, Flammenkönig, Tigergeist, Dunkler Anführer -->
+	<!-- Tier2: Geisterbaum Lord, Eishexe, Große Eishexe, Hauptmann Yonghan -->
+	<!-- Tier3: 90er Map Bosse -->
+	<!-- Tier4: 105er Map Bosse -->
+	<!-- Tier5: Verwunschener Wald + Ochao Bosse -->
+	
+	<!-- Kill Tier 1 Bosses 1000x -->
+	<Achievement id = "41" max_value = "1000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "691" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2191" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1901" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2091" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2206" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1304" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "791" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "10" count = "1" /> <!-- Title: Advanced Boss Hunter -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill Tier 2 Bosses 1000x -->
+	<Achievement id = "42" max_value = "1000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2307" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1000" min_level = "0" max_level = "105">
+				<Restrictions>
+					<Restriction type = "1" value = "1191" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1192" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2491" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2494" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "11" count = "1" /> <!-- Title: Competent Boss Hunter -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill Tier 3 Bosses 1000x -->
+	<Achievement id = "43" max_value = "1000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3090" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3091" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3190" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3191" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3290" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3291" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3390" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3391" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3490" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3491" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3590" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3591" />
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3595" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3596" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3690" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3691" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3790" />
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3791" />
+				</Restrictions>
+			</Task>
+			<Task id = "19" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3890" />
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3891" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "12" count = "1" /> <!-- Title: Expert Boss Hunter -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill Tier 4 Bosses 1000x -->
+	<Achievement id = "44" max_value = "1000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35013" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35012" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "13" count = "1" /> <!-- Title: Master Boss Hunter -->
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill Tier 5 Bosses 1000x -->
+	<Achievement id = "45" max_value = "1000">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6391" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6392" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6393" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6394" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3915" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3914" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "14" count = "1" /> <!-- Title: Master Boss Hunter -->
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill each Boss once -->
+	<Achievement id = "46" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "691" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2191" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1901" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "1" max_value = "1" min_level = "0" max_level = "80">
+				<Restrictions>
+					<Restriction type = "1" value = "2091" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2206" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1304" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "791" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "1" max_value = "1" min_level = "0" max_level = "100">
+				<Restrictions>
+					<Restriction type = "1" value = "2307" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "1" max_value = "1" min_level = "0" max_level = "105">
+				<Restrictions>
+					<Restriction type = "1" value = "1191" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1192" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2491" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2494" />
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3090" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3091" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3190" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3191" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3290" />
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3291" />
+				</Restrictions>
+			</Task>
+			<Task id = "19" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3390" />
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3391" />
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3490" />
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3491" />
+				</Restrictions>
+			</Task>
+			<Task id = "23" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3590" />
+				</Restrictions>
+			</Task>
+			<Task id = "24" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3591" />
+				</Restrictions>
+			</Task>
+			<Task id = "25" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3595" />
+				</Restrictions>
+			</Task>
+			<Task id = "26" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3596" />
+				</Restrictions>
+			</Task>
+			<Task id = "27" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3690" />
+				</Restrictions>
+			</Task>
+			<Task id = "28" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3691" />
+				</Restrictions>
+			</Task>
+			<Task id = "29" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3790" />
+				</Restrictions>
+			</Task>
+			<Task id = "30" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3791" />
+				</Restrictions>
+			</Task>
+			<Task id = "31" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3890" />
+				</Restrictions>
+			</Task>
+			<Task id = "32" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3891" />
+				</Restrictions>
+			</Task>
+			<Task id = "33" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35013" />
+				</Restrictions>
+			</Task>
+			<Task id = "34" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35012" />
+				</Restrictions>
+			</Task>
+			<Task id = "35" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6391" />
+				</Restrictions>
+			</Task>
+			<Task id = "36" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6392" />
+				</Restrictions>
+			</Task>
+			<Task id = "37" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6393" />
+				</Restrictions>
+			</Task>
+			<Task id = "38" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6394" />
+				</Restrictions>
+			</Task>
+			<Task id = "39" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3915" />
+				</Restrictions>
+			</Task>
+			<Task id = "40" type = "1" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3914" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "15" count = "1" /> <!-- Title: Lord of Bosses -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Reach level 30 -->
+	<Achievement id = "47" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach level 50 -->
+	<Achievement id = "48" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach level 75 -->
+	<Achievement id = "49" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "75" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach level 90 -->
+	<Achievement id = "50" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "90" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach level 105 -->
+	<Achievement id = "51" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "105" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach level 120 -->
+	<Achievement id = "52" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "120" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach level 130 -->
+	<Achievement id = "53" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "2" max_value = "130" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "16" count = "1" /> <!-- Title: Highest in the room -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Reach playtime minutes: 10.000 -->
+	<Achievement id = "54" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "3" max_value = "10000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach playtime minutes: 25.000 -->
+	<Achievement id = "55" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "3" max_value = "25000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach playtime minutes: 50.000 -->
+	<Achievement id = "56" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "3" max_value = "50000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach playtime minutes: 75.000 -->
+	<Achievement id = "57" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "3" max_value = "75000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Reach playtime minutes: 100.000 -->
+	<Achievement id = "58" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "3" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "17" count = "1" /> <!-- Title: 24/7/365/X -->
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Ride mount for 30 days -->
+	<Achievement id = "59" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "5" max_value = "2592000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "13" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "18" count = "1" /> <!-- Title: Ride till I die -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Summon pet for 30 days -->
+	<Achievement id = "60" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "4" max_value = "2592000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "13" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "19" count = "1" /> <!-- Title: Perfect Bond -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Summon and ride all Mounts that are ingame available -->
+	<Achievement id = "61" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71225" /> <!-- Ellie --> 
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71128" /> <!-- Battle-Lion -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71124" /> <!-- White Lion -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Summon and ride all Mounts from the itemshop once -->
+	<Achievement id = "62" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71128" /> <!-- Battle Lion Seal --> 
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "850053" /> <!-- Magma Stallion -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "850054" /> <!-- Devils Ostrich -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Summon and ride all Mounts -->
+	<Achievement id = "63" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71128" /> <!-- Battle Lion Seal --> 
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "850053" /> <!-- Magma Stallion -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "850054" /> <!-- Devils Ostrich -->
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71225" /> <!-- Ellie --> 
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71128" /> <!-- Battle-Lion -->
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "5" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71124" /> <!-- White Lion -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "20" count = "1" /> <!-- Title: Cowboy -->
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Summon all Pets that are ingame available -->
+	<Achievement id = "64" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55701" /> <!-- Mini Monkey --> 
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55702" /> <!-- Kleine Spinne -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "53005" /> <!-- Baby Azrael Seal -->
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55705" /> <!-- Mini Dragon -->
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55704" /> <!-- Mini Nemere -->
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55703" /> <!-- Mini Razador -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Summon all Pets from the itemshop once -->
+	<Achievement id = "65" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "53261" /> <!-- Sir Cobblepot --> 
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "53260" /> <!-- Sir Oswald -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "850005" /> <!-- Agwe -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Summon all Pets once -->
+	<Achievement id = "66" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "53261" /> <!-- Sir Cobblepot --> 
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "53260" /> <!-- Sir Oswald -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "850005" /> <!-- Agwe -->
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55701" /> <!-- Mini Monkey --> 
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55702" /> <!-- Kleine Spinne -->
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "53005" /> <!-- Baby Azrael Seal -->
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55705" /> <!-- Mini Dragon -->
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55704" /> <!-- Mini Nemere -->
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "55703" /> <!-- Mini Razador -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "21" count = "1" /> <!-- Title: Animal Control -->
+			<Reward type = "4" value = "25" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Summon Pet System Pet with maxed bonuses -->
+	<Achievement id = "67" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "4" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "3" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "22" count = "1" /> <!-- Title: All or Nothing -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Activate Toggle Items from list -->
+	<Achievement id = "68" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50827" /> <!-- Red Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50828" /> <!-- Orange Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50829" /> <!-- Yellow Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50830" /> <!-- Green Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50831" /> <!-- Blue Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50832" /> <!-- White Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50833" /> <!-- Energy Crystal (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50835" /> <!-- Pink Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50837" /> <!-- Black Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50839" /> <!-- Purple Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50841" /> <!-- Grey Dew (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "72032" /> <!-- Dragon God Attack (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "72035" /> <!-- Dragon God Defense (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "72038" /> <!-- Dragon God Life (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71044" /> <!-- Critical Strike (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71045" /> <!-- Piercing Strike (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950257" /> <!-- Dragon God Attack+ (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950258" /> <!-- Dragon God Defense+ (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "19" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950259" /> <!-- Dragon God Life+ (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950260" /> <!-- Critical Strike+ (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950261" /> <!-- Piercing Strike+ (Perm.) -->
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50813" /> <!-- Sim Water (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "23" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50814" /> <!-- Dok Water (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "24" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50817" /> <!-- Zin Water (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "25" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50818" /> <!-- SamBo Water (Permanent) -->
+				</Restrictions>
+			</Task>
+			<Task id = "26" type = "6" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50820" /> <!-- Hwal Water (Permanent) -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "23" count = "1" /> <!-- Title: Got Everything -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Reach 350 Movement Speed -->
+	<Achievement id = "69" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "7" max_value = "350" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "24" count = "1" /> <!-- Title: Fast as F Boi -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Fish 50 items -->
+	<Achievement id = "70" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "8" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Fish 250 items -->
+	<Achievement id = "71" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "8" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Fish 500 items -->
+	<Achievement id = "72" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "8" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "25" count = "1" /> <!-- Title: Beach Boy -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Fish every fish once -->
+	<Achievement id = "73" max_value = "15">
+		<Tasks>
+			<Task id = "1" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27802" /> <!-- Minnow -->
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27803" /> <!-- Zander -->
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27804" /> <!-- MandarinFish -->
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27805" /> <!-- LargeZander -->
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27806" /> <!-- Carp -->
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27807" /> <!-- Salmon -->
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27808" /> <!-- GrassCarp -->
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27809" /> <!-- BrookTrout -->
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27810" /> <!-- Eel -->
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27811" /> <!-- RainbowTrout -->
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27812" /> <!-- RiverTrout -->
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27813" /> <!-- Rudd -->
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27814" /> <!-- Perch -->
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27815" /> <!-- Tenchi -->
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27816" /> <!-- Catfish -->
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27817" /> <!-- Loach -->
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27818" /> <!-- LotusFish -->
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27819" /> <!-- Sweetfish -->
+				</Restrictions>
+			</Task>
+			<Task id = "19" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27820" /> <!-- Smelt -->
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27821" /> <!-- Shiri -->
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27822" /> <!-- MirrorCarp -->
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "8" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27823" /> <!-- Goldfish -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "26" count = "1" /> <!-- Title: Empty the Oceans -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Burn 50 fish -->
+	<Achievement id = "74" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "9" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Burn 250 fish -->
+	<Achievement id = "75" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "9" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Burn 500 fish -->
+	<Achievement id = "76" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "9" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "27" count = "1" /> <!-- Title: Born to Burn -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Use every burned fish once -->
+	<Achievement id = "77" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27863" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27864" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27865" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27866" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27867" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27868" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27869" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27870" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27871" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27872" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27873" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27874" />
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27875" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27876" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27877" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27878" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "10" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27879" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "28" count = "1" /> <!-- Title: I'm Hungry -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Kill 1000 players -->
+	<Achievement id = "78" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 2500 players -->
+	<Achievement id = "79" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "2500" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 5000 players -->
+	<Achievement id = "80" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "5000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "29" count = "1" /> <!-- Title: Player Slayer -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Kill 500 players from kingdom: red -->
+	<Achievement id = "81" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "8" value = "1" /> <!-- 1=red -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 500 players from kingdom: yellow -->
+	<Achievement id = "82" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "8" value = "1" /> <!-- 2=yellow -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 500 players from kingdom: blue -->
+	<Achievement id = "83" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "8" value = "1" /> <!-- 3=blue -->
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Kill 250 players with pk mode: free -->
+	<Achievement id = "84" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "12" value = "2" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "30" count = "1" /> <!-- Title: Terrorist -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Kill 250 players with race: warrior -->
+	<Achievement id = "85" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "9" value = "0" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "31" count = "1" /> <!-- Title: Here we go again.. -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 250 players with race: ninja -->
+	<Achievement id = "86" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "9" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "32" count = "1" /> <!-- Title: You can't hide -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 250 players with race: sura -->
+	<Achievement id = "87" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "9" value = "2" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "33" count = "1" /> <!-- Title: One Arm Army -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Kill 250 players with race: shaman -->
+	<Achievement id = "88" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "9" value = "3" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "34" count = "1" /> <!-- Title: Buff? -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Win 100 duels -->
+	<Achievement id = "89" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "10" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Win 500 duels -->
+	<Achievement id = "90" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "10" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Win 1000 duels -->
+	<Achievement id = "91" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "1" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+					<Restriction type = "10" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "35" count = "1" /> <!-- Title: Duelist -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- MISSING : Win X duels in a row -->
+	
+	<!-- Win 10 guild wars -->
+	<Achievement id = "93" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "11" max_value = "25" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "37" count = "1" /> <!-- Title: Warlord -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Die 100 times -->
+	<Achievement id = "94" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "12" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Die 500 times -->
+	<Achievement id = "95" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "12" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Die 1000 times -->
+	<Achievement id = "96" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "12" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "38" count = "1" /> <!-- Title: Loser -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Deal 100000 damage with one skill -->
+	<Achievement id = "97" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "13" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "39" count = "1" /> <!-- Title: Yo' want some? -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Get 100000 damage with one skill -->
+	<Achievement id = "98" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "14" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "7" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "40" count = "1" /> <!-- Title: I'm Lagging -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Collect Enchant Item with amount 100.000 from monsters -->
+	<Achievement id = "99" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "15" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71084" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect Blessing Scroll with amount 2000 from monsters -->
+	<Achievement id = "100" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "15" max_value = "2000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "25040" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect Clam with amount 1000 from monsters -->
+	<Achievement id = "101" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "15" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "27987" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect Green Dragon Bean with amount 100 from monsters -->
+	<Achievement id = "102" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "15" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "100300" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect Red Glimmerstone with amount 1000 from monsters -->
+	<Achievement id = "103" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "15" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950252" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect Exorcism Scroll with amount 2000 from monsters -->
+	<Achievement id = "104" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "15" max_value = "2000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "71001" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "15" max_value = "2000" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "950180" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Collect 1kkk Yang from monsters -->
+	<Achievement id = "105" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "17" max_value = "1000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect 5kkk Yang from monsters -->
+	<Achievement id = "106" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "17" max_value = "5000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect 10kkk Yang from monsters -->
+	<Achievement id = "107" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "17" max_value = "10000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect 100kkk Yang from monsters -->
+	<Achievement id = "108" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "17" max_value = "100000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "41" count = "1" /> <!-- Title: Richie Rich -->
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Collect 100k Alignment Points -->
+	<Achievement id = "109" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "16" max_value = "100000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect 500k Alignment Points -->
+	<Achievement id = "110" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "16" max_value = "500000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Collect 1kk Alignment Points -->
+	<Achievement id = "111" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "16" max_value = "1000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "42" count = "1" /> <!-- Title: Godlike x 10 -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Visit maps in list (map1 & map2) once -->
+	<Achievement id = "112" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "1" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "21" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "41" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "3" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "23" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "43" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "43" count = "1" /> <!-- Title: Traveler -->
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Visit maps in list (farmmaps) once -->
+	<Achievement id = "113" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "64" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "65" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "63" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "61" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "62" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "67" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "18" max_value = "1" min_level = "0" max_level = "100">
+				<Restrictions>
+					<Restriction type = "2" value = "68" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "70" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "301" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "302" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "303" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "304" />
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "381" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "382" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "407" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "409" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "44" count = "1" /> <!-- Title: Farmer -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	
+	<!-- Visit place: Templar () -->
+	<Achievement id = "114" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "45" count = "1" /> <!-- Title: Templar -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Visit place: Desert Walker () -->
+	<Achievement id = "115" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "46" count = "1" /> <!-- Title: Desert Walker -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Visit place: Ice Ice Baby () -->
+	<Achievement id = "116" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "47" count = "1" /> <!-- Title: Ice Ice Baby -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Visit place: Vulcano Visitor () -->
+	<Achievement id = "117" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "48" count = "1" /> <!-- Title: Vulcano Visitor -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Visit place: Burned my Eyebrows () -->
+	<Achievement id = "118" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "49" count = "1" /> <!-- Title: Burned my Eyebrows -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Visit place: Forest Gump () -->
+	<Achievement id = "119" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "50" count = "1" /> <!-- Title: Forest Gump -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Visit place: Lost Places () -->
+	<Achievement id = "120" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "18" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "2" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "51" count = "1" /> <!-- Title: Lost Places -->
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Spend 1kkk Yang using the Shop Search -->
+	<Achievement id = "121" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "19" max_value = "1000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 10kkk Yang using the Shop Search -->
+	<Achievement id = "122" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "19" max_value = "10000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 25kkk Yang using the Shop Search -->
+	<Achievement id = "123" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "19" max_value = "25000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 50kkk Yang using the Shop Search -->
+	<Achievement id = "124" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "19" max_value = "50000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 100kkk Yang using the Shop Search -->
+	<Achievement id = "125" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "19" max_value = "100000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "52" count = "1" /> <!-- Title: Shopping Queen -->
+			<Reward type = "4" value = "20" count = "1" />
+		</Rewards>
+	</Achievement>
+
+	<!-- Spend 1kkk Yang in NPC Shops -->
+	<Achievement id = "126" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "20" max_value = "1000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 3kkk Yang in NPC Shops -->
+	<Achievement id = "127" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "20" max_value = "3000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 5kkk Yang in NPC Shops -->
+	<Achievement id = "128" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "20" max_value = "5000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "53" count = "1" /> <!-- Title: Shopping King -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Spend 1kkk Yang while upgrading / crafting items -->
+	<Achievement id = "129" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "21" max_value = "1000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 2kkk Yang while upgrading / crafting items -->
+	<Achievement id = "130" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "21" max_value = "2000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Spend 3kkk Yang while upgrading / crafting items -->
+	<Achievement id = "131" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "21" max_value = "3000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "54" count = "1" /> <!-- Title: Wasting Yang 24/7 -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Withdraw 1kkk yang from your offlineshop -->
+	<Achievement id = "132" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "22" max_value = "1000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "1" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Withdraw 10kkk yang from your offlineshop -->
+	<Achievement id = "133" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "22" max_value = "10000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Withdraw 25kkk yang from your offlineshop -->
+	<Achievement id = "134" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "22" max_value = "25000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Withdraw 50kkk yang from your offlineshop -->
+	<Achievement id = "135" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "22" max_value = "50000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Withdraw 100kkk yang from your offlineshop -->
+	<Achievement id = "136" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "22" max_value = "100000000000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "55" count = "1" /> <!-- Title: Rich get Richer -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Trade 50 times -->
+	<Achievement id = "137" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "23" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Trade 250 times -->
+	<Achievement id = "138" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "23" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Trade 500 times -->
+	<Achievement id = "139" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "23" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "56" count = "1" /> <!-- Title: Trade Station -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Upgrade 25 items to +9 -->
+	<Achievement id = "140" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "25" max_value = "25" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Upgrade 50 items to +9 -->
+	<Achievement id = "141" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "25" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Upgrade 100 items to +9 -->
+	<Achievement id = "142" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "25" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "57" count = "1" /> <!-- Title: EZ -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Upgrade 1 items to +15 -->
+	<Achievement id = "143" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "24" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Upgrade 3 items to +15 -->
+	<Achievement id = "144" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "24" max_value = "3" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Upgrade 5 items to +15 -->
+	<Achievement id = "145" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "24" max_value = "5" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "58" count = "1" /> <!-- Title: EZ PZ -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Add 100 players as friends -->
+	<Achievement id = "146" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "26" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "59" count = "1" /> <!-- Title: Social Activist -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Join a guild -->
+	<Achievement id = "147" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "27" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Write 250 private messages -->
+	<Achievement id = "148" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "28" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Write 500 private messages -->
+	<Achievement id = "149" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "28" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Write 1000 private messages -->
+	<Achievement id = "150" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "28" max_value = "1000" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "60" count = "1" /> <!-- Title: Nonstop Talker -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Write 100 call chat messages -->
+	<Achievement id = "151" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "29" max_value = "100" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Write 250 call chat messages -->
+	<Achievement id = "152" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "29" max_value = "250" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Write 500 call chat messages -->
+	<Achievement id = "153" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "29" max_value = "500" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "61" count = "1" /> <!-- Title: Screamer -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Create a group with 8 members -->
+	<Achievement id = "154" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "30" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Grandmaster all skills -->
+	<Achievement id = "155" max_value = "180">
+		<Tasks>
+			<!-- KK -->
+			<Task id = "1" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "4" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "5" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6" />
+				</Restrictions>
+			</Task>
+			<!-- Mento -->
+			<Task id = "7" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "16" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "17" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "18" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "19" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "20" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "21" />
+				</Restrictions>
+			</Task>
+			<!-- Nah -->
+			<Task id = "13" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "31" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "32" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "33" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "34" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35" />
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "36" />
+				</Restrictions>
+			</Task>
+			<!-- Fern -->
+			<Task id = "19" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "46" />
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "47" />
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "48" />
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "49" />
+				</Restrictions>
+			</Task>
+			<Task id = "23" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50" />
+				</Restrictions>
+			</Task>
+			<Task id = "24" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "51" />
+				</Restrictions>
+			</Task>
+			<!-- Wasu -->
+			<Task id = "25" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "61" />
+				</Restrictions>
+			</Task>
+			<Task id = "26" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "62" />
+				</Restrictions>
+			</Task>
+			<Task id = "27" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "63" />
+				</Restrictions>
+			</Task>
+			<Task id = "28" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "64" />
+				</Restrictions>
+			</Task>
+			<Task id = "29" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "65" />
+				</Restrictions>
+			</Task>
+			<Task id = "30" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "66" />
+				</Restrictions>
+			</Task>
+			<!-- Masu -->
+			<Task id = "31" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "76" />
+				</Restrictions>
+			</Task>
+			<Task id = "32" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "77" />
+				</Restrictions>
+			</Task>
+			<Task id = "33" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "78" />
+				</Restrictions>
+			</Task>
+			<Task id = "34" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "79" />
+				</Restrictions>
+			</Task>
+			<Task id = "35" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "80" />
+				</Restrictions>
+			</Task>
+			<Task id = "36" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "81" />
+				</Restrictions>
+			</Task>
+			<!-- Drachen -->
+			<Task id = "37" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "91" />
+				</Restrictions>
+			</Task>
+			<Task id = "38" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "91" />
+				</Restrictions>
+			</Task>
+			<Task id = "39" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "93" />
+				</Restrictions>
+			</Task>
+			<Task id = "40" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "94" />
+				</Restrictions>
+			</Task>
+			<Task id = "41" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "95" />
+				</Restrictions>
+			</Task>
+			<Task id = "42" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "96" />
+				</Restrictions>
+			</Task>
+			<!-- Heili -->
+			<Task id = "43" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "106" />
+				</Restrictions>
+			</Task>
+			<Task id = "44" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "107" />
+				</Restrictions>
+			</Task>
+			<Task id = "45" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "108" />
+				</Restrictions>
+			</Task>
+			<Task id = "46" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "109" />
+				</Restrictions>
+			</Task>
+			<Task id = "47" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "110" />
+				</Restrictions>
+			</Task>
+			<Task id = "48" type = "31" max_value = "30" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "111" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Perfect Master all skills -->
+	<Achievement id = "156" max_value = "240">
+		<Tasks>
+			<!-- KK -->
+			<Task id = "1" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "4" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "5" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6" />
+				</Restrictions>
+			</Task>
+			<!-- Mento -->
+			<Task id = "7" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "16" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "17" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "18" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "19" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "20" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "21" />
+				</Restrictions>
+			</Task>
+			<!-- Nah -->
+			<Task id = "13" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "31" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "32" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "33" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "34" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35" />
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "36" />
+				</Restrictions>
+			</Task>
+			<!-- Fern -->
+			<Task id = "19" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "46" />
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "47" />
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "48" />
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "49" />
+				</Restrictions>
+			</Task>
+			<Task id = "23" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50" />
+				</Restrictions>
+			</Task>
+			<Task id = "24" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "51" />
+				</Restrictions>
+			</Task>
+			<!-- Wasu -->
+			<Task id = "25" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "61" />
+				</Restrictions>
+			</Task>
+			<Task id = "26" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "62" />
+				</Restrictions>
+			</Task>
+			<Task id = "27" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "63" />
+				</Restrictions>
+			</Task>
+			<Task id = "28" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "64" />
+				</Restrictions>
+			</Task>
+			<Task id = "29" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "65" />
+				</Restrictions>
+			</Task>
+			<Task id = "30" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "66" />
+				</Restrictions>
+			</Task>
+			<!-- Masu -->
+			<Task id = "31" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "76" />
+				</Restrictions>
+			</Task>
+			<Task id = "32" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "77" />
+				</Restrictions>
+			</Task>
+			<Task id = "33" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "78" />
+				</Restrictions>
+			</Task>
+			<Task id = "34" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "79" />
+				</Restrictions>
+			</Task>
+			<Task id = "35" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "80" />
+				</Restrictions>
+			</Task>
+			<Task id = "36" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "81" />
+				</Restrictions>
+			</Task>
+			<!-- Drachen -->
+			<Task id = "37" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "91" />
+				</Restrictions>
+			</Task>
+			<Task id = "38" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "91" />
+				</Restrictions>
+			</Task>
+			<Task id = "39" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "93" />
+				</Restrictions>
+			</Task>
+			<Task id = "40" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "94" />
+				</Restrictions>
+			</Task>
+			<Task id = "41" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "95" />
+				</Restrictions>
+			</Task>
+			<Task id = "42" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "96" />
+				</Restrictions>
+			</Task>
+			<!-- Heili -->
+			<Task id = "43" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "106" />
+				</Restrictions>
+			</Task>
+			<Task id = "44" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "107" />
+				</Restrictions>
+			</Task>
+			<Task id = "45" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "108" />
+				</Restrictions>
+			</Task>
+			<Task id = "46" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "109" />
+				</Restrictions>
+			</Task>
+			<Task id = "47" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "110" />
+				</Restrictions>
+			</Task>
+			<Task id = "48" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "111" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Ecstasy Master all skills -->
+	<Achievement id = "157" max_value = "300">
+		<Tasks>
+			<!-- KK -->
+			<Task id = "1" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "1" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "2" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "3" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "4" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "5" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "6" />
+				</Restrictions>
+			</Task>
+			<!-- Mento -->
+			<Task id = "7" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "16" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "17" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "18" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "19" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "20" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "21" />
+				</Restrictions>
+			</Task>
+			<!-- Nah -->
+			<Task id = "13" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "31" />
+				</Restrictions>
+			</Task>
+			<Task id = "14" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "32" />
+				</Restrictions>
+			</Task>
+			<Task id = "15" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "33" />
+				</Restrictions>
+			</Task>
+			<Task id = "16" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "34" />
+				</Restrictions>
+			</Task>
+			<Task id = "17" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "35" />
+				</Restrictions>
+			</Task>
+			<Task id = "18" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "36" />
+				</Restrictions>
+			</Task>
+			<!-- Fern -->
+			<Task id = "19" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "46" />
+				</Restrictions>
+			</Task>
+			<Task id = "20" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "47" />
+				</Restrictions>
+			</Task>
+			<Task id = "21" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "48" />
+				</Restrictions>
+			</Task>
+			<Task id = "22" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "49" />
+				</Restrictions>
+			</Task>
+			<Task id = "23" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "50" />
+				</Restrictions>
+			</Task>
+			<Task id = "24" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "51" />
+				</Restrictions>
+			</Task>
+			<!-- Wasu -->
+			<Task id = "25" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "61" />
+				</Restrictions>
+			</Task>
+			<Task id = "26" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "62" />
+				</Restrictions>
+			</Task>
+			<Task id = "27" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "63" />
+				</Restrictions>
+			</Task>
+			<Task id = "28" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "64" />
+				</Restrictions>
+			</Task>
+			<Task id = "29" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "65" />
+				</Restrictions>
+			</Task>
+			<Task id = "30" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "66" />
+				</Restrictions>
+			</Task>
+			<!-- Masu -->
+			<Task id = "31" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "76" />
+				</Restrictions>
+			</Task>
+			<Task id = "32" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "77" />
+				</Restrictions>
+			</Task>
+			<Task id = "33" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "78" />
+				</Restrictions>
+			</Task>
+			<Task id = "34" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "79" />
+				</Restrictions>
+			</Task>
+			<Task id = "35" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "80" />
+				</Restrictions>
+			</Task>
+			<Task id = "36" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "81" />
+				</Restrictions>
+			</Task>
+			<!-- Drachen -->
+			<Task id = "37" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "91" />
+				</Restrictions>
+			</Task>
+			<Task id = "38" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "91" />
+				</Restrictions>
+			</Task>
+			<Task id = "39" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "93" />
+				</Restrictions>
+			</Task>
+			<Task id = "40" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "94" />
+				</Restrictions>
+			</Task>
+			<Task id = "41" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "95" />
+				</Restrictions>
+			</Task>
+			<Task id = "42" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "96" />
+				</Restrictions>
+			</Task>
+			<!-- Heili -->
+			<Task id = "43" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "106" />
+				</Restrictions>
+			</Task>
+			<Task id = "44" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "107" />
+				</Restrictions>
+			</Task>
+			<Task id = "45" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "108" />
+				</Restrictions>
+			</Task>
+			<Task id = "46" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "109" />
+				</Restrictions>
+			</Task>
+			<Task id = "47" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "110" />
+				</Restrictions>
+			</Task>
+			<Task id = "48" type = "31" max_value = "50" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "111" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "62" count = "1" /> <!-- Title: Ecstasy Addicted -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Perfect Master all counter skills -->
+	<Achievement id = "158" max_value = "320">
+		<Tasks>
+			<Task id = "1" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "221" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "222" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "223" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "224" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "225" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "226" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "227" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "228" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "63" count = "1" /> <!-- Title: 'Miss' -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Perfect Master all boost skills  -->
+	<Achievement id = "159" max_value = "40">
+		<Tasks>
+			<Task id = "1" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "236" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "237" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "238" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "239" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "240" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "241" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "242" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "243" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "64" count = "1" /> <!-- Title: Over 9000 -->
+			<Reward type = "4" value = "15" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Perfect Master the Leadership Skill -->
+	<Achievement id = "160" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "121" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Perfect Master the Polymorph Skill -->
+	<Achievement id = "161" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "31" max_value = "40" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "129" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Master the Blacksmith Skill -->
+	<Achievement id = "162" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "31" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "1" value = "132" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "65" count = "1" /> <!-- Title: Blacksmith's Apprentice -->
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Finish all dungeons once -->
+	<Achievement id = "163" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "1" min_level = "0" max_level = "60">
+				<Restrictions>
+					<Restriction type = "11" value = "1" />
+				</Restrictions>
+			</Task>
+			<Task id = "2" type = "32" max_value = "1" min_level = "0" max_level = "75">
+				<Restrictions>
+					<Restriction type = "11" value = "2" />
+				</Restrictions>
+			</Task>
+			<Task id = "3" type = "32" max_value = "1" min_level = "0" max_level = "75">
+				<Restrictions>
+					<Restriction type = "11" value = "3" />
+				</Restrictions>
+			</Task>
+			<Task id = "4" type = "32" max_value = "1" min_level = "0" max_level = "105">
+				<Restrictions>
+					<Restriction type = "11" value = "4" />
+				</Restrictions>
+			</Task>
+			<Task id = "5" type = "32" max_value = "1" min_level = "0" max_level = "105">
+				<Restrictions>
+					<Restriction type = "11" value = "5" />
+				</Restrictions>
+			</Task>
+			<Task id = "6" type = "32" max_value = "1" min_level = "0" max_level = "105">
+				<Restrictions>
+					<Restriction type = "11" value = "6" />
+				</Restrictions>
+			</Task>
+			<Task id = "7" type = "32" max_value = "1" min_level = "0" max_level = "120">
+				<Restrictions>
+					<Restriction type = "11" value = "7" />
+				</Restrictions>
+			</Task>
+			<Task id = "8" type = "32" max_value = "1" min_level = "0" max_level = "120">
+				<Restrictions>
+					<Restriction type = "11" value = "8" />
+				</Restrictions>
+			</Task>
+			<Task id = "9" type = "32" max_value = "1" min_level = "0" max_level = "120">
+				<Restrictions>
+					<Restriction type = "11" value = "9" />
+				</Restrictions>
+			</Task>
+			<Task id = "10" type = "32" max_value = "1" min_level = "0" max_level = "130">
+				<Restrictions>
+					<Restriction type = "11" value = "10" />
+				</Restrictions>
+			</Task>
+			<Task id = "11" type = "32" max_value = "1" min_level = "0" max_level = "130">
+				<Restrictions>
+					<Restriction type = "11" value = "11" />
+				</Restrictions>
+			</Task>
+			<Task id = "12" type = "32" max_value = "1" min_level = "0" max_level = "130">
+				<Restrictions>
+					<Restriction type = "11" value = "12" />
+				</Restrictions>
+			</Task>
+			<Task id = "13" type = "32" max_value = "1" min_level = "0" max_level = "130">
+				<Restrictions>
+					<Restriction type = "11" value = "13" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "66" count = "1" /> <!-- Title: Expert of Dungeons -->
+			<Reward type = "4" value = "5" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Dungeon ID 1 & Map Index 318: Orc Maze-->
+	<!-- Dungeon ID 2 & Map Index 403: Monkey Dungeon -->
+	<!-- Dungeon ID 3 & Map Index 217: Spider Baroness -->
+	<!-- Dungeon ID 4 & Map Index 66: Devil Tower -->
+	<!-- Dungeon ID 5 & Map Index 216: Devils Catacomb -->
+	<!-- Dungeon ID 6 & Map Index 208: Blue Dragon Dungeon -->
+	<!-- Dungeon ID 7 & Map Index 351: Razador -->
+	<!-- Dungeon ID 8 & Map Index 352: Nemere -->
+	<!-- Dungeon ID 9 & Map Index 402: Orc Dungeon -->
+	<!-- Dungeon ID 10 & Map Index 401: Jungle Dungeon -->
+	<!-- Dungeon ID 11 & Map Index 404: Desert Catacombs -->
+	<!-- Dungeon ID 12 & Map Index 408: Jungle of Giants -->
+	<!-- Dungeon ID 13 & Map Index 410: Frosty Mountains-->
+	
+	<!-- Dungeon ID 14 & Map Index 385: Ship Defense -->
+	<!-- Dungeon ID 15 & Map Index 414: Meleys Lair -->
+	
+	<!-- Finish dungeon 1 for 10 times -->
+	<Achievement id = "164" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "1" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 2 for 10 times -->
+	<Achievement id = "165" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "2" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 3 for 10 times -->
+	<Achievement id = "166" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "3" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 4 for 10 times -->
+	<Achievement id = "167" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "4" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 5 for 10 times -->
+	<Achievement id = "168" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "5" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 6 for 10 times -->
+	<Achievement id = "169" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "6" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 7 for 10 times -->
+	<Achievement id = "170" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "7" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 8 for 10 times -->
+	<Achievement id = "171" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "8" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 9 for 10 times -->
+	<Achievement id = "172" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "9" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 10 for 10 times -->
+	<Achievement id = "173" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "10" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 11 for 10 times -->
+	<Achievement id = "174" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "11" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 12 for 10 times -->
+	<Achievement id = "175" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "12" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon 13 for 10 times -->
+	<Achievement id = "176" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "10" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "13" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "4" value = "3" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Finish dungeon ship defense in under 10 minutes -->
+	<Achievement id = "177" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "14" />
+					<Restriction type = "13" value = "600" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "67" count = "1" /> <!-- Title: Speedy Gonzales -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon meleys lair in under 10 minutes -->
+	<Achievement id = "178" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "15" />
+					<Restriction type = "13" value = "600" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "68" count = "1" /> <!-- Title: Fast>Faster>Me -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	
+	<!-- Finish dungeon ship defense with 2 group members -->
+	<Achievement id = "179" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "14" />
+					<Restriction type = "14" value = "2" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "69" count = "1" /> <!-- Title: Two Man Army -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+	<!-- Finish dungeon meleys lair with 2 group members -->
+	<Achievement id = "180" max_value = "0">
+		<Tasks>
+			<Task id = "1" type = "32" max_value = "1" min_level = "0" max_level = "0">
+				<Restrictions>
+					<Restriction type = "11" value = "15" />
+					<Restriction type = "14" value = "2" />
+				</Restrictions>
+			</Task>
+		</Tasks>
+		<Rewards>
+			<Reward type = "3" value = "70" count = "1" /> <!-- Title: Two Easy -->
+			<Reward type = "4" value = "10" count = "1" />
+		</Rewards>
+	</Achievement>
+</Achievements>
+
+<Titles>
+	<Title id = "1" bonus_type = "APPLY_MAX_HP" bonus_value = "500" />
+</Titles>

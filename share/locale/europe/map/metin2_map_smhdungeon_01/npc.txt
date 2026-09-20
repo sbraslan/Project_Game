@@ -1,0 +1,5 @@
+//type	cx	cy	sx	sy	z	dir	time	percent	count	vnum
+m	137	142	0	0	0	7	1m	100	1	9014	//Händlerin
+m	122	122	0	0	0	1	1m	100	1	4020	//Sung Mahis Höllenturm
+m	109 142	0	0	0	1	1m	100	1	30308	//Postfach
+m	122 178	0	0	0	1	1m	100	1	10126	//Ausgang

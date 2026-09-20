@@ -1,0 +1,6 @@
+ScriptType               MotionData
+
+MotionFileName           "monster\metinstone_halloween\metinstone_blow.gr2"
+MotionDuration           2.000000
+Accumulation             0.00	0.00	0.00
+

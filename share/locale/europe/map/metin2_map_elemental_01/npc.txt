@@ -1,0 +1,7 @@
+// Warp NPC
+m	145		418	0	0	0	1	1m	100	1	3949		//Neuer Kontinent (Hafen/Ein- Ausgang)
+m	470		280	0	0	0	1	1m	100	1	10110		//Blitzgipfel 470,280
+m	831		221	0	0	0	1	1m	100	1	10109		//Blitzkamm 831,221
+m	1032	429	0	0	0	1	1m	100	1	10112		//Eisgebirge 1031,430
+m	700		933	0	0	0	1	1m	100	1	10110		//Blitzgipfel 700,933
+m	279		903	0	0	0	1	1m	100	1	10116		//Feuerkamm 279,903

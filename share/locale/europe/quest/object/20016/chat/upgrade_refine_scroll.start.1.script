@@ -1,0 +1,31 @@
+say_title ( locale_quest ( 9204 ) ) 
+say ( locale_quest ( 9992 ) ) 
+wait ( ) 
+if pc . count_item ( 71026 ) == 0 then 
+say_title ( locale_quest ( 9204 ) ) 
+say ( locale_quest ( 9993 ) ) 
+say_item ( gameforge . upgrade_refine_scroll . _140_sayItem , 71026 , "" ) 
+wait ( ) 
+end 
+if pc . count_item ( 25040 ) == 0 then 
+say_title ( locale_quest ( 9204 ) ) 
+say ( locale_quest ( 9995 ) ) 
+say_item ( gameforge . upgrade_refine_scroll . _60_sayItem , 25040 , "" ) 
+wait ( ) 
+end 
+say_title ( locale_quest ( 9204 ) ) 
+say ( locale_quest ( 9996 ) ) 
+local s = select ( locale_quest ( 14042 ) , locale_quest ( 14043 ) ) 
+if 1 == s then 
+if pc . count_item ( 71026 ) > 0 and pc . count_item ( 25040 ) > 0 then 
+pc . remove_item ( 71026 ) 
+pc . remove_item ( 25040 ) 
+pc . give_item2 ( 71032 ) 
+say_title ( locale_quest ( 9204 ) ) 
+say ( locale_quest ( 9997 ) ) 
+say_item ( gameforge . upgrade_refine_scroll . _110_npcChat , 71032 , "" ) 
+else 
+say_title ( locale_quest ( 9204 ) ) 
+say ( locale_quest ( 9998 ) ) 
+end 
+end 
