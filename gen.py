@@ -1,4 +1,4 @@
-#!/usr/local/bin/python2.7
+#!/usr/bin/env python3
 #### @martysama0134 start scripts ####
 ### TODO:
 ## clean how rawly CONFIG is shown in code
@@ -84,7 +84,7 @@ def WriteChannelConfig(szConfFile, dwChannel):
 
 def WriteMapConfig(szConfFile, szMapList):
 	if len(szMapList.split())>=32:
-		print "WARNING: MORE THAN 32 MAPS INSIDE:", szConfFile
+		print("WARNING: MORE THAN 32 MAPS INSIDE:", szConfFile)
 	Append2File("MAP_ALLOW: %s" % (szMapList), "%s" % (szConfFile))
 
 def WritePortConfig(szConfFile, wGenPort, dwType, dwPortType=None):
@@ -101,7 +101,7 @@ def genMakeConfig(szConfFile, diConfTable, bIsExtra=False, dwType=None):
 	genWriteConfig(szConfFile, diConfTable["general"])
 	if bIsExtra:
 		genWriteConfig(szConfFile, diConfTable["extra"])
-	if dwType!=None:
+	if dwType is not None:
 		genWriteConfig(szConfFile, diConfTable[dwType])
 
 def genGetRandPort(dwType):
@@ -117,18 +117,17 @@ def genGetRandPort(dwType):
 
 def genGenM2List():
 	from json import dumps as j_dumps
-	with open("start.list", "wb") as fList: #b for unix end line
-		fList.write(j_dumps(startlist, indent=4))
-	with open("clear.list", "wb") as fList: #b for unix end line
-		fList.write(j_dumps(clearlist, indent=4))
+	with open("start.list", "w", encoding="utf-8", newline="\n") as fList:
+		fList.write(j_dumps(startlist, indent=4) + "\n")
+	with open("clear.list", "w", encoding="utf-8", newline="\n") as fList:
+		fList.write(j_dumps(clearlist, indent=4) + "\n")
 
 def genGenIpfwList():
 	def Joi(mList):
 		return ' '.join(str(v) for v in mList)
 	szRules=CustIpfwList%(Joi(udp_yes_ports), Joi(tcp_yes_ports), Joi(tcp_nop_ports))
-	with open("ipfw.rules", "wb") as fIpfw: #b for unix end line
-		fIpfw.write(szRules)
-		# fIpfw.write(szRules.replace("\r", ""))
+	with open("ipfw.rules", "w", encoding="utf-8", newline="\n") as fIpfw:
+		fIpfw.write(szRules.replace("\r", ""))
 
 def genInit():
 	# clean port list
@@ -168,13 +167,15 @@ tcp_nop_ports=[]
 def genCalcParentRet(szParentName):
 	return szParentName.count("/")*v_chalS
 
-def genMain(oSub={}, szParentName=[]):
+def genMain(oSub=None, szParentName=None):
 	global genConfig
 	global startlist, clearlist
 	global udp_yes_ports, tcp_yes_ports, tcp_nop_ports
-	if not oSub:
+	if oSub is None:
 		oSub=M2S
 		genInit()
+	if szParentName is None:
+		szParentName=[]
 	for v1 in oSub:
 		k1=v1["name"]
 		listTmpParentName=list(szParentName)	# list() to bypass variable passed by reference to value
@@ -328,26 +329,26 @@ def genMain(oSub={}, szParentName=[]):
 			tcp_nop_ports.append(wTmpPort[PORT.P2P_PORT])
 			pass
 		else:
-			print "unrecognized type %u"%v1["type"]
+			print("unrecognized type %u"%v1["type"])
 	#end
 
 def genList(bIsVerbose=False):
 	if bIsVerbose:
-		print "startlist:"
+		print("startlist:")
 		for i in startlist:
-			print "---", i, "---"
-		print "clearlist:"
+			print("---", i, "---")
+		print("clearlist:")
 		for i in clearlist:
-			print "---", i, "---"
-		print "udp_yes_ports:"
+			print("---", i, "---")
+		print("udp_yes_ports:")
 		for i in udp_yes_ports:
-			print "---", i, "---"
-		print "tcp_yes_ports:"
+			print("---", i, "---")
+		print("tcp_yes_ports:")
 		for i in tcp_yes_ports:
-			print "---", i, "---"
-		print "tcp_nop_ports:"
+			print("---", i, "---")
+		print("tcp_nop_ports:")
 		for i in tcp_nop_ports:
-			print "---", i, "---"
+			print("---", i, "---")
 	genGenM2List()
 	genGenIpfwList()
 
