@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Crash/runtime artifacts
+*.core
+*.pid
+.daemon.pid
+
+# Generated deployed server binaries/symlinks
+game/share/bin/game
+game/share/bin/db
+
+# Common Metin2 runtime logs
+**/syslog
+**/syserr
+**/stdout
+**/profile.txt
+**/packet_info.txt
+**/p2p_packet_info.txt
+**/usage.txt
+**/DEV_LOG.log
+**/mob_count
