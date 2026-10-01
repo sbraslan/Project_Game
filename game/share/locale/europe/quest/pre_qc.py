@@ -1,4 +1,4 @@
-#! /usr/local/bin/python2.7
+#!/usr/bin/env python3
 
 """PreQC Details
 1) In:
@@ -37,11 +37,11 @@ BACKP_DFT=False
 
 #if py>=2.4 use @BenchMe instead of BenchMe(fnc, (args), {args)
 def BenchMe(fnc, *args, **kw):
-	print "--- BenchMe calling for %s with args %s, %s Begin ---" % (fnc.func_name, args, kw)
+	print("--- BenchMe calling for %s with args %s, %s Begin ---" % (fnc.__name__, args, kw))
 	t_start = time.time()
 	rtn = fnc(*args, **kw)
-	print time.time()-t_start
-	print "--- BenchMe for %s End ---"%fnc.func_name
+	print(time.time()-t_start)
+	print("--- BenchMe for %s End ---"%fnc.__name__)
 	return rtn
 #(NoBenchMe,BenchMe)[verbo] just for curiosity
 def NoBenchMe(fnc, *args, **kw):
@@ -73,9 +73,9 @@ class PreQC(object):
 				continue
 			self.lista.append(fname)
 		if self.verbo:
-			print "--- PreQC.LoadList Begin ---"
-			for ffname in self.lista: print repr(ffname)
-			print "--- PreQC.LoadList End ---"
+			print("--- PreQC.LoadList Begin ---")
+			for ffname in self.lista: print(repr(ffname))
+			print("--- PreQC.LoadList End ---")
 		m_list.close()
 
 	def Generate(self):
@@ -97,7 +97,7 @@ class PreQC(object):
 				#you should not call two quests with the same name anyway
 				fname=fname.split("/")[-1]
 			if os.system("./qc %s/%s"%(self.epath, fname)):
-				print "Error occured on quest %s/%s"%(self.epath, fname)
+				print("Error occured on quest %s/%s"%(self.epath, fname))
 				os._exit(0)
 		os.system("chmod -R ug+rwx object")
 
@@ -208,11 +208,11 @@ def MakeParameterTable(lines, parameter_table, keys):
 		tokens = my_split(line, ["\t", ",", " ", "=", "[", "]", "\r", "\n"])
 		if len(tokens) == 0:
 			continue
-		if cmp(tokens[0], "quest") == 0:
+		if tokens[0] == "quest":
 			start = idx
 			break
-		if cmp(tokens[0], "define") == 0:
-			if cmp(tokens[1], "group") == 0:
+		if tokens[0] == "define":
+			if tokens[1] == "group":
 				group_value = []
 				for value in tokens[3:]:
 					if parameter_table.get(value, 0) != 0:
@@ -221,9 +221,9 @@ def MakeParameterTable(lines, parameter_table, keys):
 				parameter_table[tokens[2]] = group_value
 				keys.append(tokens[2])
 			elif len(tokens) > 5:
-				print "%d Invalid syntax" % idx
-				print "define [name] = [value]"
-				print "define group [name] = \"[\"[v0],[v1], ... \"]\""
+				print("%d Invalid syntax" % idx)
+				print("define [name] = [value]")
+				print("define group [name] = \"[\"[v0],[v1], ... \"]\"")
 			else:
 				value = tokens[2]
 				if parameter_table.get(value, 0) != 0:
@@ -266,7 +266,7 @@ def run(filename=LPATH_DFT, w2dump=EPATH_DFT, cp4a=ACOPY_DFT):
 
 if __name__ == "__main__":
 	def Usage():
-		print """Usage:
+		print("""Usage:
 	--help or -h to show this message
 	--lpath	or -l to select the quest_list file path (./quest_list by default)
 	--epath or -e to select the folder path to dump everything (./pre_qc by default)
@@ -326,7 +326,7 @@ Revised by martysama0134 (base version by YMIR)
 			pQC.pBM(pQC.Generate)
 		if v_bcomp:
 			pQC.pBM(pQC.Compile)
-	except getopt.GetoptError, err:
+	except getopt.GetoptError as err:
 		sys.exit(err)
 
 
