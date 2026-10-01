@@ -55,18 +55,18 @@ class PreQC(object):
 		self.backp = backp
 		self.acopy = acopy
 		self.pBM = (NoBenchMe,BenchMe)[verbo]
-		if not os.path.exists(self.epath):
-			os.makedirs(self.epath)
-		else:
-			#security
-			if (not self.epath[0]=="/") or (self.epath.find("..")==-1) or (self.epath=="."):
-				shutil.rmtree(self.epath)
-				os.makedirs(self.epath)
+		output_path = os.path.realpath(self.epath)
+		cwd_path = os.path.realpath(os.getcwd())
+		if output_path in (cwd_path, os.path.sep) or not output_path.startswith(cwd_path + os.path.sep):
+			raise ValueError("pre_qc output must be a subdirectory of the current quest directory")
+		if os.path.exists(self.epath):
+			shutil.rmtree(self.epath)
+		os.makedirs(self.epath)
 		self.lista = []
 		self.pBM(self.LoadList)	#self.LoadList()
 
 	def LoadList(self):
-		m_list = open(self.lpath, "r")
+		m_list = open(self.lpath, "r", encoding="latin-1")
 		for fname in m_list.read().split("\n"): #instead of readlines() to easily clean \r\n
 			fname = fname.rstrip()
 			if not fname or fname[0]=="#":
@@ -88,18 +88,18 @@ class PreQC(object):
 				os.rename("object", "object__%s"%time.strftime("%Y%m%d-%H%M%S", time.localtime()))
 			shutil.rmtree("./object")
 		#os.system("rm -rf object")
+		compiler = "./qc_x64" if os.path.exists("./qc_x64") else "./qc"
+		if not os.path.exists(compiler):
+			raise RuntimeError("Quest compiler not found (qc_x64 or qc)")
 		for fname in self.lista:
 			if not fname:
 				continue
-			#no popen for convenience
 			if "/" in fname:
-				#fix bug if .quest paths contain /
-				#you should not call two quests with the same name anyway
 				fname=fname.split("/")[-1]
-			if os.system("./qc %s/%s"%(self.epath, fname)):
-				print("Error occured on quest %s/%s"%(self.epath, fname))
-				os._exit(0)
-		os.system("chmod -R ug+rwx object")
+			quest_path = "%s/%s" % (self.epath, fname)
+			if subprocess.call([compiler, quest_path]):
+				raise RuntimeError("Error occurred on quest %s" % quest_path)
+		subprocess.call(["chmod", "-R", "ug+rwx", "object"])
 
 def split_by_quat(buf):
 	p = False
@@ -240,7 +240,7 @@ def run(filename=LPATH_DFT, w2dump=EPATH_DFT, cp4a=ACOPY_DFT):
 	#filename = filename.strip("\n")
 	if not filename:
 		return False
-	fname = open(filename)
+	fname = open(filename, "r", encoding="latin-1")
 	lines = fname.readlines()
 	start = MakeParameterTable(lines, parameter_table, keys)
 	#if not cp4a:
@@ -254,7 +254,7 @@ def run(filename=LPATH_DFT, w2dump=EPATH_DFT, cp4a=ACOPY_DFT):
 		r = Replace(lines, parameter_table, keys)
 
 		# dump
-		f = open(oname, "w")
+		f = open(oname, "w", encoding="latin-1", newline="")
 		for s in r:
 			 f.write(s)
 		f.close()
@@ -288,7 +288,7 @@ Revised by martysama0134 (base version by YMIR)
 	import sys
 	try:
 		# grab args
-		optlist, args = getopt.getopt(sys.argv[1:], "hl:e:acnvb", ("help","lpath","epath","all","compile","nopre","verbose","backup"))
+		optlist, args = getopt.getopt(sys.argv[1:], "hl:e:acnvb", ("help","lpath=","epath=","all","compile","nopre","verbose","backup"))
 		# config
 		v_bcomp	= False
 		v_bnpre	= True
