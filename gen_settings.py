@@ -76,9 +76,9 @@ def _detect_admin_ip():
 
 v_admusrS = _detect_admin_ip()
 
-v_admpwdS='58948HG83H4G8H84G'				#adminpage_password
-v_svrhstS='localhost'						#host for sql connections
-v_svrdttS='metin2 ASSBDAS!#FSABFASI!#JYXYXKAFAF'							#user&pwd for sql connections
+v_admpwdS=os.environ.get("M2_ADMIN_PASSWORD", '58948HG83H4G8H84G')		#adminpage_password
+v_svrhstS=os.environ.get("M2_SQL_HOST", 'localhost')		#host for sql connections
+v_svrdttS=os.environ.get("M2_SQL_AUTH", 'metin2 ASSBDAS!#FSABFASI!#JYXYXKAFAF')	#user&pwd for sql connections
 v_svrdtaS="%s %s"%(v_svrhstS, v_svrdttS)	#host, user and pwd for db sql connections
 
 v_dbhstS='127.0.0.1'#default hostname for db
