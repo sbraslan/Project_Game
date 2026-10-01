@@ -282,7 +282,7 @@ if __name__ == "__main__":
 	# ./pre_qc.py -bv
 
 Revised by martysama0134 (base version by YMIR)
-"""
+""")
 	import getopt
 	import os
 	import sys
