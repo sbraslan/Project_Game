@@ -1,0 +1,80 @@
+[
+    {
+        "serv": "game", 
+        "path": "game/logs/game/db", 
+        "chan": 0, 
+        "type": 1
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/auth", 
+        "chan": 0, 
+        "type": 2
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch1/core1", 
+        "chan": 1, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch1/core2", 
+        "chan": 1, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch1/core3", 
+        "chan": 1, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch1/core4", 
+        "chan": 1, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch1/core5", 
+        "chan": 1, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch2/core1", 
+        "chan": 2, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch2/core2", 
+        "chan": 2, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch2/core3", 
+        "chan": 2, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch2/core4", 
+        "chan": 2, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch2/core5", 
+        "chan": 2, 
+        "type": 5
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/logs/game/chan/ch99/core99", 
+        "chan": 99, 
+        "type": 5
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "serv": "game", 
+        "path": "game/db", 
+        "chan": 0, 
+        "type": 1, 
+        "name": "game-db"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/auth", 
+        "chan": 0, 
+        "type": 2, 
+        "name": "game-auth"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch1/core1", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "game-ch1-core1"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch1/core2", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "game-ch1-core2"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch1/core3", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "game-ch1-core3"
+    },
+    {
+        "serv": "game", 
+        "path": "game/chan/ch1/core4", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "game-ch1-core4"
+    },
+    {
+        "serv": "game", 
+        "path": "game/chan/ch1/core5", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "game-ch1-core5"
+    },
+    {
+        "serv": "game", 
+        "path": "game/chan/ch99/core99", 
+        "chan": 99, 
+        "type": 5, 
+        "name": "game-ch99-core99"
+    }
+]

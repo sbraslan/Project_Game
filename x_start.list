@@ -1,0 +1,30 @@
+[
+    {
+        "serv": "game", 
+        "path": "game/db", 
+        "chan": 0, 
+        "type": 1, 
+        "name": "game-db"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/auth", 
+        "chan": 0, 
+        "type": 2, 
+        "name": "game-auth"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch1/core1", 
+        "chan": 1, 
+        "type": 5, 
+        "name": "game-ch1-core1"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch99/core99", 
+        "chan": 99, 
+        "type": 5, 
+        "name": "game-ch99-core99"
+    }
+]
