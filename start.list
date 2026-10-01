@@ -50,9 +50,44 @@
     },
     {
         "serv": "game", 
+        "path": "game/chan/ch2/core1", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "game-ch2-core1"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch2/core2", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "game-ch2-core2"
+    }, 
+    {
+        "serv": "game", 
+        "path": "game/chan/ch2/core3", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "game-ch2-core3"
+    },
+    {
+        "serv": "game", 
+        "path": "game/chan/ch2/core4", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "game-ch2-core4"
+    },
+    {
+        "serv": "game", 
+        "path": "game/chan/ch2/core5", 
+        "chan": 2, 
+        "type": 5, 
+        "name": "game-ch2-core5"
+    },
+    {
+        "serv": "game", 
         "path": "game/chan/ch99/core99", 
         "chan": 99, 
         "type": 5, 
         "name": "game-ch99-core99"
     }
-]
+]\n
