@@ -1,23 +1,80 @@
+#!/usr/bin/env python3
 #### @martysama0134 start scripts ####
-from platform import system as p_system
-v_system = p_system()
+"""Generator settings for the FreeBSD 14.x amd64 Metin2 runtime."""
 
-from subprocess import check_output as sp_co, call as sp_call, CalledProcessError as sp_CalledProcessError
+import os
+import platform
+import subprocess
+
+v_system = platform.system()
+
+
 def fShell(szCmd, bRet=False):
+	"""Compatibility helper used by gen.py, with Python 3 text output."""
 	try:
+		result = subprocess.run(
+			szCmd,
+			shell=True,
+			check=bRet,
+			text=True,
+			stdout=subprocess.PIPE if bRet else None,
+		)
 		if bRet:
-			return sp_co(szCmd, shell=True)[:-1]	# remove final \n
-		else:
-			return sp_call(szCmd, shell=True)
-	except sp_CalledProcessError:
+			return result.stdout.rstrip("\\n")
+		return result.returncode
+	except subprocess.CalledProcessError:
 		return -1
 
-if v_system=="FreeBSD":
-	v_admusrS=fShell("ifconfig em0 | grep -Eo 'inet ([0-9]{1,3}\.){3}([0-9]{1,3})' | awk '{print $2}'", True)
-elif v_system=="Linux":
-	v_admusrS=fShell("ifconfig eth0 | grep -Eo 'inet addr:([0-9]{1,3}\.){3}([0-9]{1,3})' | awk -F':' '{print $2}'", True)
-elif v_system=="Windows":
-	v_admusrS="127.0.0.1"
+
+def _detect_admin_ip():
+	override = os.environ.get("M2_ADMIN_IP")
+	if override:
+		return override
+
+	if v_system == "FreeBSD":
+		try:
+			route = subprocess.run(
+				["route", "-n", "get", "default"],
+				check=True,
+				text=True,
+				stdout=subprocess.PIPE,
+			).stdout
+			iface = ""
+			for line in route.splitlines():
+				if "interface:" in line:
+					iface = line.split(":", 1)[1].strip()
+					break
+			if iface:
+				ifconfig = subprocess.run(
+					["ifconfig", iface],
+					check=True,
+					text=True,
+					stdout=subprocess.PIPE,
+				).stdout
+				for line in ifconfig.splitlines():
+					parts = line.split()
+					if len(parts) >= 2 and parts[0] == "inet" and parts[1] != "127.0.0.1":
+						return parts[1]
+		except (OSError, subprocess.CalledProcessError):
+			pass
+
+	if v_system == "Linux":
+		try:
+			output = subprocess.run(
+				["hostname", "-I"],
+				check=True,
+				text=True,
+				stdout=subprocess.PIPE,
+			).stdout.split()
+			if output:
+				return output[0]
+		except (OSError, subprocess.CalledProcessError):
+			pass
+
+	return "127.0.0.1"
+
+
+v_admusrS = _detect_admin_ip()
 
 v_admpwdS='58948HG83H4G8H84G'				#adminpage_password
 v_svrhstS='localhost'						#host for sql connections
@@ -39,13 +96,13 @@ M2SD = {
 }
 
 class M2TYPE:
-	SERVER, DB, AUTH, CHANFOLDER, CHANNEL, CORE = xrange(6)
+	SERVER, DB, AUTH, CHANFOLDER, CHANNEL, CORE = range(6)
 	NOCHAN = 0
 
 class PORT:
 	RANDOMI = v_dbipS	# a random port will start from such value
 	RANDOM = 0
-	PORT, P2P_PORT, DB_PORT, BIND_PORT = xrange(4)
+	PORT, P2P_PORT, DB_PORT, BIND_PORT = range(4)
 	lPORT = ("PORT", "P2P_PORT", "DB_PORT", "BIND_PORT")
 
 M2CONFIG = {
